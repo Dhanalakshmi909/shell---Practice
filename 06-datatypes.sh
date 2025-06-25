@@ -4,5 +4,5 @@ Number1=100
 Number2=200
 
 TIMESTAMP=$(date)
-echo "script executed at: $TIMESTAMP
-#sum=$Number+$Number1
+echo "script executed at: $TIMESTAMP"
+#SUM=$(($Number1+$Number2))
