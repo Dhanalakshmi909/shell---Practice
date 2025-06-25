@@ -1,5 +1,5 @@
 #!bin/bash
 
-MOVIES( "rakshi" "simha" "godavati" "court")
+MOVIES( "rakhi" "simha" "godavati" "court")
 
 echo "First Movie: $MOVIES[0]"
