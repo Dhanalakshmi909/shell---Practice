@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo dhana: Hi ram
-echo ram: hello dhana 
+echo ram: hello dhana  
