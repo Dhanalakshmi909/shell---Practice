@@ -12,8 +12,8 @@
 
 #!/bin/bash
 
-PERSON1 = Dhana
-PERSON2 = Rama
+PERSON1=Dhana
+PERSON2=Rama
 echo "$PERSON1:: Hey $PERSON2,how are you?"
 echo "$PERSON2:: hi $PERSON1, Iam good, how are you doing."
 echo "$PERSON1:: Everything is good, what about you?"
