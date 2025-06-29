@@ -10,5 +10,4 @@ echo "PID of the script: $$"
 sleep 10 &
 echo "PID of last command in back ground: $!"   
 
-                    
-        
+            
