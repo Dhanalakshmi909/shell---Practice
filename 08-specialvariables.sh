@@ -8,6 +8,6 @@ echo "User running the script: $USER"
 echo "Home directory user running the script: $HOME"
 sleep 60 &
 echo "PID of the script: $$"
-echo "PID of last command in back ground: $!"   
+#echo "PID of last command in back ground: $!"   
 
             
