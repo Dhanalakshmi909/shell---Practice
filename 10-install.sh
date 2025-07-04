@@ -11,7 +11,7 @@ else
  
 fi
 
- dnf install mysqlghdyb -y
+ dnf install mysql -y
 
 if [ $? -eq 0]
 then
