@@ -11,7 +11,7 @@ else
  
 fi
 
- dnf install gfjdjgsjsgujgj -y
+ dnf install mysqlghdyb -y
 
 if [ $? -eq 0]
 then
