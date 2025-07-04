@@ -13,7 +13,7 @@ fi
 
  dnf install mysql -y
 
-if [ $? -eq 0]
+if [ $? -eq 0 ]
 then
   echo "Install the mysql is ...success"
 else
