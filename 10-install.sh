@@ -15,9 +15,9 @@ fi
 
 if [ $? -eq 0]
 then
-  echo "Install the my sql is ...success"
+  echo "Install the mysql is ...success"
 else
-  echo "Install the my sql is ...failure"
+  echo "Install the mysql is ...failure"
  #exit 1
 fi
   
