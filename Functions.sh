@@ -18,13 +18,13 @@ VALIDATE(){
   echo "Installing $2 is ........success"
 else
  echo "Installing $2 is .........Failure"
- exit 1
+ #exit 1
 fi
 }
 dnf list installed mysql
 if [ $? -ne 0 ]
 then
-cho "mysql is not installed going to install it"
+eho "mysql is not installed going to install it"
  dnf install mysql
  VALIDATE $? "MySQL"
 else 
@@ -34,7 +34,7 @@ fi
 dnf list installed python3
 if [ $? -ne 0 ]
 then
-cho "python3 is not installed going to install it"
+eho "python3 is not installed going to install it"
  dnf install python3
  VALIDATE $? "python3"
 else 
