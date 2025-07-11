@@ -49,3 +49,4 @@ echo "nginx is not installed going to install it"
 else 
  echo "nginx already installed..... nothing to do"
 fi
+ 
