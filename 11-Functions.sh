@@ -9,9 +9,7 @@ then
  else
   echo "you are running with root access"
 fi
-
 dnf list installed mysql
-
 VALIDATE(){
  if [ $1 -eq 0 ]
  then 
