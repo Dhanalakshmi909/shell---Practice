@@ -33,7 +33,7 @@ echo "mysql is not installed going to install it"
  dnf install mysql
  VALIDATE $? "MySQL"
 else 
- echo -e "Nothing to do MYSQL ...$Y Already Installed $N"
+ echo -e "Nothing to do MYSQL....$Y Already Installed $N"
 fi
 
 dnf list installed python3
