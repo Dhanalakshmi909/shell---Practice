@@ -54,3 +54,4 @@ echo -e "nginx is not installed going to install it"
 else 
  echo -e "Nothing to do nginx.....$Y Already Installed $N"
 fi
+ 
